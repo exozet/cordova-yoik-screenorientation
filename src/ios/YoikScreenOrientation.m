@@ -72,7 +72,7 @@ SOFTWARE.
     // vc.view.alpha = 0.0;
     vc.view.opaque = YES;
     // This stops us getting the black application background flash, iOS8
-    vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
+    // vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
 
     [self.viewController presentViewController:vc animated:NO completion:nil];
     [self.viewController dismissViewControllerAnimated:NO completion:nil];
